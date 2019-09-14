@@ -2,7 +2,7 @@
  (name run_tests)
  (libraries
   alcotest
-  test_sub1
+  test_treeFile
   test_sub2
 ))
 

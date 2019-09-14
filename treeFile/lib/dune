@@ -1,7 +1,7 @@
 ; name = name of the supermodule that will wrap all source files as submodules
 ; public_name = name of the library for ocamlfind and opam
 (library
- (name xxprojxx_sub1)
- (public_name xxprojxx.sub1)
+ (name xxprojxx_treeFile)
+ (public_name xxprojxx.treeFile)
  (libraries unix)
- (synopsis "This is a short description of the sub1 library."))
+ (synopsis "This is a short description of the treeFile library."))

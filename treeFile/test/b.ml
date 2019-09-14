@@ -1,5 +1,5 @@
 (*
-   Tests for Sub1.B
+   Tests for TreeFile.B
 *)
 
 let test_string () =
