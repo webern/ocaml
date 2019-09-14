@@ -4,7 +4,7 @@
  (names foo_main bar_main)
  (public_names sub2-foo sub2-bar)
  (libraries
-  proj.sub1
-  proj.sub2
+  xxprojxx.sub1
+  xxprojxx.sub2
  )
- (package proj))
+ (package xxprojxx))

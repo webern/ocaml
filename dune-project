@@ -1,3 +1,3 @@
 (lang dune 1.0)
-(name proj)      ; optional
+(name xxprojxx)      ; optional
 (version 0.0.0)  ; optional

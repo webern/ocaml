@@ -8,4 +8,4 @@ let test_suites: unit Alcotest.test list = [
   "Sub2.A", Test_sub2.A.tests;
 ]
 
-let () = Alcotest.run "proj" test_suites
+let () = Alcotest.run "xxprojxx" test_suites

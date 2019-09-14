@@ -1,9 +1,9 @@
 opam-version: "1.2"
 maintainer: "YOUR EMAIL ADDRESS"
-authors: ["YOUR NAME"]
-homepage: "https://github.com/webern/proj"
-bug-reports: "https://github.com/webern/proj/issues"
-dev-repo: "https://github.com/webern/proj.git"
+authors: ["Matthew James Briggs"]
+homepage: "https://github.com/webern/xxprojxx"
+bug-reports: "https://github.com/webern/xxprojxx/issues"
+dev-repo: "https://github.com/webern/xxprojxx.git"
 
 build: [
   ["dune" "subst"] {pinned}
