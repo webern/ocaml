@@ -1,9 +1,9 @@
 (library
- (name proj_sub2)
- (public_name proj.sub2)
+ (name xxprojxx_sub2)
+ (public_name xxprojxx.sub2)
  (libraries
   unix
   str
-  proj.sub1
+  xxprojxx.treeFile
  )
  (synopsis "This is a short description of the sub2 library."))

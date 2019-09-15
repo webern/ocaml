@@ -3,9 +3,10 @@
 *)
 
 let test_suites: unit Alcotest.test list = [
-  "Sub1.A", Test_sub1.A.tests;
-  "Sub1.B", Test_sub1.B.tests;
+  "TreeFile.A", Test_treeFile.A.tests;
+  "TreeFile.B", Test_treeFile.B.tests;
+  "TreeFile.TreeFile", Test_treeFile.TreeFile.tests;
   "Sub2.A", Test_sub2.A.tests;
 ]
 
-let () = Alcotest.run "proj" test_suites
+let () = Alcotest.run "xxprojxx" test_suites

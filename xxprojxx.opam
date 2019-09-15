@@ -1,0 +1,18 @@
+opam-version: "1.2"
+maintainer: "matthew.james.briggs@somemail.com"
+authors: ["Matthew James Briggs"]
+homepage: "https://github.com/webern/xxprojxx"
+bug-reports: "https://github.com/webern/xxprojxx/issues"
+dev-repo: "https://github.com/webern/xxprojxx.git"
+
+build: [
+  ["dune" "subst"] {pinned}
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+build-test: ["dune" "runtest" "-p" name]
+
+depends: [
+  "dune" {build}
+  "alcotest" {test}
+]

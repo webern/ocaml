@@ -1,0 +1,7 @@
+(library
+ (name test_treeFile)
+ (libraries
+  alcotest
+  xxprojxx.treeFile
+ )
+ (synopsis "Tests for treeFile"))
