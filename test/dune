@@ -3,7 +3,7 @@
  (libraries
   alcotest
   test_treeFile
-  test_sub2
+  test_ocpractice
 ))
 
 (alias

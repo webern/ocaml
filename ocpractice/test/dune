@@ -1,0 +1,7 @@
+(library
+ (name test_ocpractice)
+ (libraries
+  alcotest
+  xxprojxx.ocpractice
+ )
+ (synopsis "Tests for ocpractice"))

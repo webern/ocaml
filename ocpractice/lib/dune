@@ -1,0 +1,9 @@
+(library
+ (name xxprojxx_ocpractice)
+ (public_name xxprojxx.ocpractice)
+ (libraries
+  unix
+  str
+  xxprojxx.treeFile
+ )
+ (synopsis "This is a short description of the ocpractice library."))

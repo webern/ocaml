@@ -23,13 +23,13 @@ How to use local libraries interactively
 --
 
 Use `dune utop DIR` where DIR if the folder contains the `dune`
-file for a library. For instance, our `sub2` sample library can be
+file for a library. For instance, our `ocpractice` sample library can be
 used as follows:
 
 ```
-$ dune utop sub2/lib
+$ dune utop ocpractice/lib
 ...
-utop # Xxprojxx_sub2.A.do_something ();;
+utop # Xxprojxx_ocpractice.A.do_something ();;
 1525373137.245 seconds have elapsed since 1970-01-01T00:00:00.
 - : unit = ()
 ```
