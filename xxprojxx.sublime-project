@@ -16,19 +16,29 @@
     {
       "name": "Build",
       "cmd": [
-        "dune build"
+        "make",
+        "build"
       ]
     },
     {
       "name": "Clean",
       "cmd": [
-        "make clean"
+        "dune",
+        "clean"
+      ]
+    },
+    {
+      "name": "Purge",
+      "cmd": [
+        "make",
+        "clean"
       ]
     },
     {
       "name": "Run",
       "cmd": [
-        "make test"
+        "make",
+        "test"
       ]
     }
   ]
