@@ -1,5 +1,5 @@
 (*
-   Tests for Sub2.A
+   Tests for Ocpractice.A
 *)
 
 let tests = [
