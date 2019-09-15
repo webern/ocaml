@@ -17,6 +17,8 @@ uninstall:
 	dune uninstall
 
 clean:
+	git add --all
+	git commit -m"save" || true
 	dune clean
 	git clean -dfXq
 	git clean -fX
