@@ -1,10 +1,7 @@
 {
   "folders": [
     {
-      "path": ".",
-      "folder_exclude_patterns": [
-        "_build"
-      ]
+      "path": "."
     }
   ],
   "settings": {
@@ -15,6 +12,7 @@
   "build_systems": [
     {
       "name": "Build",
+      "working_dir": "${ProjectDir}",
       "cmd": [
         "make",
         "build"
@@ -22,6 +20,7 @@
     },
     {
       "name": "Clean",
+      "working_dir": "${ProjectDir}",
       "cmd": [
         "dune",
         "clean"
@@ -29,6 +28,7 @@
     },
     {
       "name": "Purge",
+      "working_dir": "${ProjectDir}",
       "cmd": [
         "make",
         "clean"
@@ -36,6 +36,7 @@
     },
     {
       "name": "Run",
+      "working_dir": "${ProjectDir}",
       "cmd": [
         "make",
         "test"
