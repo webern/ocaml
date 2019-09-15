@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        "_build"
+      ]
+    }
+  ],
+  "settings": {
+    "word_wrap": false,
+    "auto_complete_commit_on_tab": true,
+    "translate_tabs_to_spaces": true
+  },
+  "build_systems": [
+    {
+      "name": "Build",
+      "cmd": [
+        "dune build"
+      ]
+    },
+    {
+      "name": "Clean",
+      "cmd": [
+        "make clean"
+      ]
+    },
+    {
+      "name": "Run",
+      "cmd": [
+        "make test"
+      ]
+    }
+  ]
+}
