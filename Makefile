@@ -18,6 +18,11 @@ uninstall:
 
 clean:
 	dune clean
-# Optionally, remove all files/folders ignored by git as defined
-# in .gitignore (-X).
 	git clean -dfXq
+	git clean -fX
+	git clean -fd
+	rm -rf node_modules
+
+save:
+	git add --all
+	git commit -m"save" || true
