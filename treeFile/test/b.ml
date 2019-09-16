@@ -9,6 +9,8 @@ let test_string_hasty () =
   assert ("foo" <> "bar")
 
 let tests = [
-  "string", `Quick, test_string;
-  "string, hasty", `Quick, test_string_hasty;
+  "fake test 2", `Quick, test_string;
+  "fake test 3", `Quick, test_string_hasty;
+  "fake test 4", `Quick, test_string_hasty;
+  "fake test 5", `Quick, test_string_hasty;
 ]

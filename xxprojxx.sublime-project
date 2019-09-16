@@ -14,6 +14,9 @@
       "name": "Build",
       "working_dir": "${ProjectDir}",
       "cmd": [
+        "cd",
+        "${ProjectDir}",
+        "&&",
         "make",
         "build"
       ]
